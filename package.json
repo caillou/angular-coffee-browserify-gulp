@@ -1,0 +1,25 @@
+{
+  "name": "hackit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "add-stream": "^1.0.0",
+    "angular": "^1.4.8",
+    "angular-resource": "^1.4.8",
+    "angular-ui-router": "^0.2.15",
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0"
+  },
+  "dependencies": {
+    "coffeeify": "^2.0.1"
+  }
+}

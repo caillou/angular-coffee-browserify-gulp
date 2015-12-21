@@ -1,0 +1,12 @@
+<div ng-if="articlesCreateController.isLoading">a spinner goes here</div>
+<form ng-if="!articlesCreateController.isLoading"
+  ng-submit="articlesCreateController.create()">
+  <label>
+    Title
+    <input ng-model="articlesCreateController.article.title"
+      type="text"
+      value=""
+      placeholder="e.g. Hello World">
+  </label>
+  <input type="submit" name="name" value="Submit">
+</form>
